@@ -4,7 +4,9 @@
 
 This is an Elektron-style sequencer for the original OP-1 made in Java.
 
+
 How to use:
+
 
 Set the OP-1 to “beat match” in the tempo menu. 
 
@@ -12,7 +14,9 @@ Connect OP-1 via USB and compile and run the OP1SeqMain class.
 
 Press play on the OP-1 to start the Sequencer.
 
+
 Controls:
+
 
 Use the arrow keys to select a step, and press Enter to toggle it on or off. 
 
