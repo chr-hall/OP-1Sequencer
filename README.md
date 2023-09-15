@@ -20,11 +20,11 @@ The graphics on the left represent the OP-1 keyboard - the current note value is
 
 Hold down A and use the Up and Down arrow keys to change the note value. If this is done on an active step, its note value will change in real time. You can move beyond the range of the OP-1 keyboard. 
 
-![2](https://github.com/chr-hall/OP-1Sequencer/assets/117752515/096331e1-89ec-4332-a15d-e75b40053a14)
-
 Likewise, hold down S and use the Up and Down arrow keys to change velocity.
 
 There are 4 pages of steps available. Hold down D and use the Up and Down arrow keys to move between them. 
+
+![2](https://github.com/chr-hall/OP-1Sequencer/assets/117752515/096331e1-89ec-4332-a15d-e75b40053a14)
 
 Notes:
 
