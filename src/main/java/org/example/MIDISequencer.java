@@ -4,7 +4,9 @@ import lombok.Data;
 
 import javax.sound.midi.*;
 import javax.sound.midi.MidiUnavailableException;
+import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 @Data
 public class MIDISequencer {
@@ -17,19 +19,19 @@ public class MIDISequencer {
 
         // Find OP1 in connected MIDI devices
         MidiDevice.Info[] midiDevices = MidiSystem.getMidiDeviceInfo();
-//        MidiDevice OP1Input = MidiSystem.getMidiDevice(Arrays.stream(midiDevices)
-//                .filter(e -> Objects.equals(e.getName(), "OP-1") &&
-//                        Objects.equals(e.getDescription(), "External MIDI Port"))
-//                .findFirst().get());
-//
-//        MidiDevice OP1Output = MidiSystem.getMidiDevice(Arrays.stream(midiDevices)
-//                .filter(e -> Objects.equals(e.getName(), "OP-1")
-//                        && Objects.equals(e.getDescription(), "No details available"))
-//                .findFirst().get());
+        MidiDevice OP1Input = MidiSystem.getMidiDevice(Arrays.stream(midiDevices)
+                .filter(e -> Objects.equals(e.getName(), "OP-1") &&
+                        Objects.equals(e.getDescription(), "External MIDI Port"))
+                .findFirst().get());
+
+        MidiDevice OP1Output = MidiSystem.getMidiDevice(Arrays.stream(midiDevices)
+                .filter(e -> Objects.equals(e.getName(), "OP-1")
+                        && Objects.equals(e.getDescription(), "No details available"))
+                .findFirst().get());
 
         // Grab default devices (for debugging)
-        MidiDevice OP1Input = MidiSystem.getMidiDevice(midiDevices[0]);
-        MidiDevice OP1Output = MidiSystem.getMidiDevice(midiDevices[1]);
+//        MidiDevice OP1Input = MidiSystem.getMidiDevice(midiDevices[0]);
+//        MidiDevice OP1Output = MidiSystem.getMidiDevice(midiDevices[1]);
 
         OP1Input.open();
         OP1Output.open();
