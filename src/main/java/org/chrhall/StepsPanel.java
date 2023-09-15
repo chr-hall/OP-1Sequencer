@@ -1,4 +1,4 @@
-package org.example;
+package org.chrhall;
 
 import lombok.Data;
 import net.miginfocom.swing.MigLayout;

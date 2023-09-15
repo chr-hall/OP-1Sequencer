@@ -1,4 +1,4 @@
-package org.example;
+package org.chrhall;
 
 import lombok.Data;
 

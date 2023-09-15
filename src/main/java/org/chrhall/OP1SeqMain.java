@@ -1,4 +1,4 @@
-package org.example;
+package org.chrhall;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.FlatLightLaf;
