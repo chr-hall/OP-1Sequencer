@@ -35,7 +35,10 @@ Likewise, hold down S and use the Up and Down arrow keys to change velocity.
 
 There are 4 pages of steps available. Hold down D and use the Up and Down arrow keys to move between them. What page you are on is displayed top the left of the steps.  
 
+### Example:
 ![2](https://github.com/chr-hall/OP-1Sequencer/assets/117752515/096331e1-89ec-4332-a15d-e75b40053a14)
+
+_Example of the sequencer in use. Light gray steps are active. Step 7 is selected and active with a note value of D#4 (highlighted in green on the OP-1 keyboard bottom left) and full velocity (127)_
 
 ### Notes:
 
